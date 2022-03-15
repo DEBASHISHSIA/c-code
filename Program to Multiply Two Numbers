@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("Enter a number : ");
+    scanf("%d" , &a);
+    printf("Enter a number : ");
+    scanf("%d" , &b);
+    
+    int product = a*b;
+    
+    printf("The product is : " "%d", product);
+    return 0;
+}
