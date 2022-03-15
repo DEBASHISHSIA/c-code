@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int divident, divisor, quitent, reminder;
+    
+    printf("Enter the value of divident : ");
+    scanf("%d" , &divident);
+    printf("Enter the value of divisor : ");
+    scanf("%d" , &divisor);
+    
+    quitent = divident/divisor;
+    reminder = divident%divisor;
+    
+    printf("The quitent is : %d\n" , quitent);
+    printf("The reminder is : %d " , reminder);
+    return 0;
+}
